@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coming Soon</title>
+  <style type="text/css" media="all">
+  body {
+  background: #1b263b;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+/*slide in*/
+.slide-in {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 1.0s ease-out;
+}
+.slide-in.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+#projects {
+  background: #1b263b;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#project h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+.project-card {
+  background: #0d1b2a;
+  padding: 15px;
+  border: 1px solid #363960;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  max-width: 260px;
+  max-height: 600px;
+  margin: 10px;
+  box-shadow: 8px 8px 12px black;
+}
+.project-image {
+  width: 100%;
+  max-height: 180px;
+  border-radius: 10px;
+}
+.project-title {
+  color: #a8dadc;
+  margin-bottom: 0.5rem;
+  font-size: 29px;
+}
+.project-description {
+  font-size: 17px;
+  line-height: 1.4;
+  color: #ccc;
+}
+.back-btn {
+  position: fixed;
+  top: 2px;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 100;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  border: 1.5px solid #a8dadc;
+  border-radius: 0.5rem;
+  color: #a8dadc;
+  text-decoration: none;
+  font-weight: bold;
+  text-wrap: nowrap;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #a8dadc;
+  color: #0d1b2a;
+}
+  </style>
+  
+</head>
+
+<body>
+  <div class="back-btn">
+    <a href="/index.html #project" class="btn"><<</a>
+  </div>
+  <section id="project">
+  <h2>Coming Soon</h2>
+  <div id="projects">
+    <!-- Chatter box -->
+    <div href="/index.html" class="project-card slide-in">
+      <div class="tech-stack">
+        <h3 class="project-title">Chatter Box</h3>
+      </div>
+      <img class="project-image" src="chatterbox.png" alt="Project Image">
+      <p class="project-description">A real-time social platform designed to let users easily engage, and interact with one another, also ensuring instant message delivery.</p>
+    </div>
+    <!-- Spot ai -->
+    <div href="/index.html" class="project-card slide-in">
+      <div class="tech-stack">
+         <h3 class="project-title">Spot.ai</h3>
+      </div>
+      <img class="project-image" src="ai.png" alt="Project Image">
+      <p class="project-description">An AI assistant designed to understand, respond, and assist users with natural language — built for smart, human-like conversations and task handling.</p>
+    </div>
+    <!-- Full stack market -->
+    <div class="project-card slide-in">
+      <div class="tech-stack">
+        <h3 class="project-title">Full Stack Market</h3>
+      </div>
+      <img class="project-image" src="online-market.png" alt="Project Image">
+      <p class="project-description">A modern online marketplace that connects buyers and sellers with a clean interface, secure payments, and real-time product listings.</p>
+    </div>
+    
+  </div>
+
+
+<script>
+  const elements = document.querySelectorAll('.slide-in');
+
+  const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+});
+
+elements.forEach(el => observer.observe(el));
+</script>
+</body>
+
+</html>

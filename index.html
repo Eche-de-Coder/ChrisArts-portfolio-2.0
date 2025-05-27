@@ -1,0 +1,273 @@
+<!-- Austine Young no dey thief thief 😂 -->
+<!-- i go call FBI for u  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pics/profilePic.jpg" type="image/x-icon" />
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- link for few icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@32,400,0,0">
+    <!-- Particles js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body>
+    <!--fancy particles -->
+    <div id="particles-js"></div>
+  
+  <!-- Navigation bar --> 
+    <!-- Hamburger Menu Icon -->
+    <button id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <!-- Side Menu Overlay -->
+    <div onclick="closeMenuHandler()" id="menuOverlay"></div>
+    <!-- Side Menu -->
+    <div id="sideMenu">
+      <nav id="sideNav">
+          <a href="#about" class="side-item">About</a>
+          <a href="#skills-section" class="side-item">Skills</a>
+          <a href="#project" class="side-item">Projects</a>
+          <a href="#service" class="side-item">Services</a>
+          <a href="#contact" class="side-item">Contact</a>
+          <a href="https://github.com/Eche-de-Coder" target="_blank" class="side-item">GitHub</a>
+          <p>Credits to Mr Frank 🤍</p>
+      </nav>
+    </div>
+    
+    
+    <!-- Main content -->
+    <header id="header">
+      <div id="profilePicContainer">
+        <div id="profilePicWrapper">
+          <img id="profilePic" src="profilePic.jpg"> 
+        </div> 
+        <!-- typing text -->
+        <div id="name">
+          <h1 id="typing-text"></h1>
+          <p>Graphic Designer and Web Dev</p>
+        </div>
+      </div>
+      <div id="view-container">
+          <div id="my-work-btn"><a href="#project">My projects</a></div>
+          <div id="contact-btn"><a href="#contact">Contact</a></div>
+          <div id="download-cv-btn"><a href="">Download cv</a></div>
+      </div>
+    </header>
+    
+    <!-- About section -->
+    <section id="about">
+      <h2>About me</h2>
+      <div class="about-wrapper">
+        <div class="about-box slide-in">
+          <h3>Who am i?</h3>
+          <p>I’m Onuigbo Christian, a frontend developer from Nigeria with a strong passion for building modern, responsive, and user-focused web applications. My goal is to solve real-world problems through clean and efficient code</p>
+        </div>
+        <div class="about-box slide-in">
+          <h3>My vision</h3>
+          <p>To create innovative digital experiences that not only engage users but also drive meaningful results for businesses. I’m always exploring new technologies and striving to grow as a developer, one project at a time.</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills-section">
+      <div id="skills">
+        <h2>
+          My Skills
+        </h2>
+        <div id="skill-container">
+          <!-- Each skill item now includes a span to display the percentage -->
+          <div class="skill-bar-container slide-in">
+            <img src="html.png" alt="HTML Logo" loading="lazy">
+            <h3 class="skill-name">HTML</h3>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="94%"></div>
+              <span class="skill-percent">0%</span>
+            </div>
+          </div>
+          <div class="skill-bar-container slide-in">
+            <img src="css.png" alt="CSS Logo" loading="lazy">
+            <h3 class="skill-name">CSS</h3>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="85%"></div>
+              <span class="skill-percent">0%</span>
+            </div>
+          </div>
+          <div class="skill-bar-container slide-in">
+            <img src="tailwind.png" alt="tailwind Logo" loading="lazy">
+            <h3 class="skill-name">Tailwind CSS</h3>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="35%"></div>
+              <span class="skill-percent">0%</span>
+            </div>
+          </div>
+          <div class="skill-bar-container slide-in">
+            <img src="js.png" alt="JS Logo" loading="lazy">
+            <h3 class="skill-name">JS</h3>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="63%"></div>
+              <span class="skill-percent">0%</span>
+            </div>
+          </div>
+          <div class="skill-bar-container slide-in">
+            <img src="canva.png" alt="canva Logo" loading="lazy">
+            <h3 class="skill-name">Graphic design</h3>
+            <div class="skill-bar">
+              <div class="skill-progress" data-percent="80%"></div>
+              <span class="skill-percent">0%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Project section -->
+    <section id="project">
+      <h2>My projects</h2>
+      <div id="projects">
+        <!-- 1st Portfolio project-->
+        <div class="project-card slide-in">
+          <div class="tech-stack">
+            <img src="js.png" alt="JavaScript">
+            <img src="html.png" alt="HTML5">
+            <img src="css.png" alt="css">
+          </div>
+            <img class="project-image" src="portfolio1.png" alt="Project Image">
+            <h3 class="project-title">Portfolio</h3>
+            <p class="project-description">A basic, portfolio website showcasing my services, projects, and achievements, built with Tailwind CSS and JavaScript.</p>
+          <div class="project-links">
+            <a href="https://chris-arts-portfolio.vercel.app" class="btn">Demo</a>
+            <a href="https://github.com/Eche-de-Coder/ChrisArts-portfolio-" class="btn">Source</a>
+          </div>
+        </div>
+        <!-- 2nd Portfolio project-->
+        <div class="project-card slide-in">
+          <div class="tech-stack">
+            <img src="js.png" alt="JavaScript">
+            <img src="html.png" alt="HTML5">
+            <img src="css.png" alt="css">
+          </div>
+            <img class="project-image" src="portfolio2.png" alt="Project Image">
+            <h3 class="project-title">Portfolio 2.0</h3>
+            <p class="project-description">A modern, responsive portfolio website showcasing my skills, projects, and achievements, built with Tailwind CSS and JavaScript.</p>
+          <div class="project-links">
+            <a href="" class="btn">Demo</a>
+            <a href="https://github.com/Eche-de-coder" class="btn">Source</a>
+          </div>
+        </div>
+      </div>
+      <div id="view-more">
+        <img src="rocket.png" alt="">
+        <a href="/coming-soon.html">view more</a>
+      </div>
+    </section>
+    
+    <!-- Service section -->
+    <section id="service">
+      <h2>Services</h2>
+      <div id="services">
+        <!-- Graphic Designs -->
+        <div class="service-card slide-in">
+          <img class="project-image" src="graphic-design.png" alt="">
+          <h3 class="service-title">Graphic designs</h3>
+          <p class="service-description">From digital illustrations to brand identity, we create visually compelling designs tailored to your needs. From flyers and posters, to logos, or social media graphics, we've got your brand covered.</p>
+          <div class="service-links">
+            <a href="#contact" class="btn">contact</a>
+            <a onclick="showRedirect()" class="btn">view all</a>
+          </div class>
+        </div>
+        <!-- Traditional arts -->
+        <div class="service-card slide-in">
+          <img class="project-image" src="trad-art.png" alt="">
+          <h3 class="service-title">Traditional arts</h3>
+          <p class="service-description">Celebrate the beauty of handcrafted creativity with our traditional art services. From detailed portraits to cultural illustrations, we bring your visions to life using timeless techniques.</p>
+          <div class="service-links">
+            <a href="#contact" class="btn">contact</a>
+            <a onclick="showRedirect()" class="btn">view all</a>
+          </div class>
+        </div>
+        <!-- Web development -->
+        <div class="service-card slide-in">
+          <video autoplay muted loop class="project-image"><source src="web-dev.mp4" type="video/mp4"></video>
+          <h3 class="service-title">Web development</h3>
+          <p class="service-description">We build responsive, high-performance websites tailored to your goals. Whether you're launching a portfolio, or business site, our development solutions combine functionality with sleek design.</p>
+          <div class="service-links">
+            <a href="#contact" class="btn">contact</a>
+          </div class>
+        </div>
+        <!-- Web cloning -->
+        <div class="service-card slide-in">
+          <video autoplay muted loop class="project-image"><source src="web-clone.mp4" type="video/mp4"></video>
+          <h3 class="service-title">Web cloning and maintenance</h3>
+          <p class="service-description">Need a replica of an existing site or help maintaining one? We provide accurate web cloning services and consistent maintenance to ensure your site runs smoothly and stays up-to-date.</p>
+          <div class="project-links">
+            <a href="#contact" class="btn">contact</a>
+          </div class>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact section with form -->
+    <section id="contact">
+      <div id="contact-me">
+        <h2>Contact us</h2>
+        <div id="contact-form" class="slide-in">
+          <form id="webhookForm">
+            <input type="text" id="name-input" class="contact-inputs" placeholder="Your Name" required/><br>
+            <input type="tel" id="number-input"  class="contact-inputs" placeholder="Your Phone No." required/><br>
+            <textarea name="" id="message-input" class="contact-inputs" placeholder="Your Message" rows="4" cols="23"></textarea><br>
+            <button id="send-btn" onclick="sendMessage()" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <!--Success modal with animated checkmark-->
+    <div id="successModal" class="modal hidden">
+      <div class="modal-content">
+        <div class="checkmark-animation">
+          <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+            <circle class="checkmark-circle" cx="26" cy="26" r="25" fill="none" />
+            <path class="checkmark-check" fill="none" d="M14 27l7 7 16-16" />
+          </svg>
+        </div>
+          <h2>Success!</h2>
+          <p>Your message was sent successfully.</p>
+          <p>We'll contact you on whatsapp via your phone number if needed. Our response time is less than one business day</p>
+          <button onclick="closeModal()">OK</button>
+      </div>
+    </div>
+    
+    <!-- Redirect message -->
+    <div id="redirectModal" class="redirect hidden">
+      <div class="redirect-content">
+        <h2>Redirect !</h2>
+        <p>You will be redirected to Whatsapp to view my catalog.</p>
+        <p>Do you wish to continue ?</p>
+        <div id="redirect-option">
+          <button id="option1" onclick="closeRedirect()">Later</button>
+          <button id="option2"><a href="https://wa.me/c/2348022839391">Continue</a></button>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer id="footer">
+      <p><strong>Connect with us on socials</strong></p>
+      <div id="icons">
+        <a href="https://discord.gg/Z4KdCQW7PN"><img class="icon" src="icon-discord.png" alt="discord"></a>
+        <a href="https://github.com/Eche-de-Coder"><img class="icon" src="icon-github.png" alt="github"></a>
+        <a href="https://www.linkedin.com/in/onuigbo-echezonachukwu-174676346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="icon" src="icon-linkedin.png" alt="linkedin"></a>
+        <a href="https://wa.me/2348022839391?text=Hello%2C%20I%20saw%20your%20portfolio!"><img class="icon" src="icon-whatsapp.png" alt="whatsapp"></a>
+        <a href="https://t.me/ChrisArts_101"><img class="icon" src="icon-telegram2.png" alt="telegram"></a>
+      </div>
+      <p>&COPY; 2025 Onuigbo Christian . All rights reserved</p>
+    </footer>
+    <script src="main.js"></script>
+  </body>
