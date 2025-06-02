@@ -167,7 +167,7 @@ const form = document.getElementById('webhookForm');
     const content = `**📩 New Message from Website**\n**👤 Name :** ${name}\n**☎️ PhoneNo :** ${number}\n**✉️ Message :** ${message}\n..\n..`;
 
     try {
-      const response = await fetch('https://discord.com/api/webhooks/1370571974102880337/Jm6Y9_N6pFUhYkgLg3WWfYwduti9w8z4aiGVGrunpRcQqwinAnGHMiSSVPMdEY-XFHv9', {
+      const response = await fetch('https://discord.com/api/webhooks/1379019915629035520/LBJQPlAiHdrsf4CYjefE8HbiQROXeDe8gPtbeKCSr_X8JQoyqafm0APSoG9fYtLoQvS_', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
