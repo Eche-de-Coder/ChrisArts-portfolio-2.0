@@ -167,7 +167,7 @@ const form = document.getElementById('webhookForm');
     const content = `**📩 New Message from Website**\n**👤 Name :** ${name}\n**☎️ PhoneNo :** ${number}\n**✉️ Message :** ${message}\n..\n..`;
 
     try {
-      const response = await fetch('https://l.webhook.party/hook/3CI6P%2BokUYiAUJc5BbvR2veYzfRUmPRLOzxxoI1upcO5kLDYehX6gPJ7MZoBL2bBLR9gdSe1H%2Bq7hxyyjlbQ%2BWHEQ4n7m4dFOE%2B8RsQS5866Hl92WC0sWPrtgZbTIW9h5UOxgwr9K58%2Fl9jPqE5NrOR2Z6ZSYcJeR1RPbHfJNGI54IWGSWacU1TifmlnZCSDCyRKfa4qlWlSjbdBKEUUYzZF8txMw%2B0BjlMvWEfjqZg09PWRakM7imbWZXCZqfjBa3a7mWqDCr7LuoQqqGnWHzf3s1jLHjeBpJnRXGCZ6L7dBSHYaId7mfSAYVSUKLQyEW9LesR3wuwnOXj4Ce%2Bvu92bPFS3XMHQmBvLDo75R8p1Jr2okD9YfjU%2BIWyVQv1b5NQ4HG8WCS4%3D/XfeQgAhgM3CM%2BxCu', {
+      const response = await fetch('https://discord.com/api/webhooks/1385758093912313896/PmNwSJyYpGbg4cPVbwsb3UoTp0AUPCohSpFJqU9dp0fDtGwZWknNdlRPWKNGYVzOPpXr', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
