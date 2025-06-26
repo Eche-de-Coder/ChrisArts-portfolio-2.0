@@ -477,7 +477,7 @@ header {
 }
 #icons i {
   height: 30px;
-  margin: 5px;
+  margin: 10px;
   color: white;
   transition: transform 0.3s ease;
 }
