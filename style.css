@@ -473,13 +473,15 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
-#icons img {
+#icons i {
   height: 30px;
   margin: 5px;
+  color: white;
   transition: transform 0.3s ease;
 }
-#icons img:hover {
+#icons i:hover {
   transform: translateY(-15px);
   height: 40px;
 }
