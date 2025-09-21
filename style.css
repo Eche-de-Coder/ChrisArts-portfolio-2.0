@@ -5,6 +5,7 @@ html {
 body {
   margin: 0;
   background: #1E293B;
+  scroll-behaviour: smooth;
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   transition: background-color 0.3s, color 0.3s;
