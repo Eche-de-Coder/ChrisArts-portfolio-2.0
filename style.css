@@ -510,7 +510,9 @@ header {
                       cursor: pointer;
                         transition-duration: 0.3s;
                           overflow: hidden;
-                            position: relative;
+                            position: fixed;
+                            bottom: 20px;
+                            right: 20px;
                             }
 
                             .svgIcon {
